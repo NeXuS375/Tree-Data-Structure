@@ -22,6 +22,8 @@ $ source venv/bin/activate
 ```
 
 **Note:** The `-h` or `--help` option provides help on how to use RP Tree.
+          The folder named "hello" is a dummy folder for test purposes.
+          This program will only work if the folder you are viewing the tree structure of has a common parent directory with the folder named "rptree_project"
 
 To take a quick test on **RP Tree**, you can use the sample `home/` directory provided along with the application's code and run the following command:
 
@@ -54,7 +56,7 @@ RP Tree also provides the following options:
 - `-h`, `--help` show a usage message
 - `-d`, `--dir-only` generates a directory-only tree
 - `-o`, `--output-file` generates a tree and save it to a file in markdown format
-
+ 
 ## Release History
 
 - 0.1.0
